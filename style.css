@@ -8,12 +8,12 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  row-gap: 7.5rem;
+  row-gap: 5rem;
 }
 .box-1 {
   margin-top: 6rem;
-  width: 55rem;
-  min-width: 30rem;
+  width: 50vw;
+  min-width: 20vw;
   display: flex;
   justify-content: space-between;
 }
@@ -30,23 +30,25 @@ ul {
 }
 
 .box-2 {
-  width: 55rem;
-  font-size: 1.3rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  width: 50vw;
+  font-size: 1.2rem;
 }
 a {
   color: #b4b399;
   text-decoration: none;
+  transition: color 1s ease;
 }
 .name {
-  font-size: 2.5rem;
+  font-size: 1.8rem;
+  font-style: italic;
 }
 
 .links {
-  width: 55rem;
+  width: 50vw;
   display: flex;
   justify-content: flex-start;
   column-gap: 1.5rem;
+}
+a:hover {
+  color: #bae8e8;
 }
